@@ -1,0 +1,67 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dt.anh.appdoi2h.view.ConfessionFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/circleImageView"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/ic_img_doi" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HAI HÒN CONFESSION"
+                android:textColor="#00bcd4"
+                android:textStyle="bold"
+                android:textSize="27dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nơi mà những tâm tư thầm kín được giấu kín bảo mật, một nơi chân thật, một nơi chấp nhận tất cả các khúc mắc về tình yêu, tình bạn, tình đồng chí, tình yêu Đội…"
+                android:textSize="16sp"
+                android:textColor="#000"
+                android:textStyle="italic"
+                android:maxLines="4"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"/>
+            <EditText
+                android:id="@+id/edt_confession"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="20dp"
+                android:elevation="20dp"
+                android:gravity="top"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/border_confession"
+                android:hint="Enter some text here...">
+                <requestFocus/>
+            </EditText>
+            <Button
+                android:id="@+id/btn_send"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="GỬI"
+                android:textColor="#FFF"
+                android:background="#00bcd4"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center|bottom"
+                android:textSize="16dp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

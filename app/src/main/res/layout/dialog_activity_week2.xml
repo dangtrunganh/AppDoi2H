@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:padding="10dp"
+    android:background="@drawable/selector_background_dialog"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#304FFE"
+        android:text="ĐĂNG KÝ THAM GIA HOẠT ĐỘNG"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/tv_register_title2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#df056f"
+        android:text="TÊN HOẠT ĐỘNG"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edt_name_register_activity_week2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="*Họ và tên"
+        android:textStyle="italic"
+        android:inputType="textPersonName"
+        android:textSize="20sp">
+        <requestFocus/>
+    </EditText>
+    <EditText
+        android:id="@+id/edt_grade_register_activity_week2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        android:hint="*Khóa. Ví dụ: 58"
+        android:textStyle="italic"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btn_participation2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/selector_time"
+        android:text="THAM GIA?" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/notice"
+        android:textColor="#E91E63"
+        android:textSize="16dp"/>
+
+</LinearLayout>

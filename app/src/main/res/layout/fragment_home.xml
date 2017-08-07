@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+        <cn.trinea.android.view.autoscrollviewpager.AutoScrollViewPager
+            android:id="@+id/vpg_faces"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <me.relex.circleindicator.CircleIndicator
+            app:ci_margin="6dp"
+            app:ci_width="10dp"
+            app:ci_height="4dp"
+            app:ci_animator="@anim/indicator_animator"
+            app:ci_animator_reverse="@anim/indicator_animator_reverse"
+            app:ci_drawable="@drawable/black_radius_square"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:id="@+id/indicator"/>
+    </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include layout="@layout/home_pager_new_update" />
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#607D8B"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp">
+
+            </LinearLayout>
+            <include layout="@layout/home_pager_featured_news" />
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#607D8B"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp">
+
+            </LinearLayout>
+            <include layout="@layout/home_pager_featured_images"/>
+        </LinearLayout>
+</LinearLayout>
+</ScrollView>

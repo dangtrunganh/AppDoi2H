@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:elevation="4dp"
+    android:orientation="vertical"
+    android:padding="6dp"
+    android:id="@+id/container_item_home_news_update"
+    android:background="@drawable/home_pager_border_layout"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/iv_item_home_featured_news"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:scaleType="fitXY"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_img_doi"/>
+    <TextView
+        android:id="@+id/tv_item_home_featured_news_title"
+        android:layout_width="match_parent"
+        android:layout_below="@id/iv_item_home_featured_news"
+        android:maxLines="1"
+        android:layout_height="0dp"
+        style="?android:attr/textAppearanceMedium"
+        android:textColor="#000000"
+        android:ellipsize="marquee"
+        android:layout_weight="2"
+        android:layout_marginTop="4dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:text="Bài viêt mới nhất trong ngày sẽ được cập nhật."/>
+    <TextView
+        android:id="@+id/tv_item_home_featured_news_date"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:maxLines="1"
+        android:text="Ngày 6/5/2017"
+        style="?android:attr/textAppearanceSmall" />
+</LinearLayout>

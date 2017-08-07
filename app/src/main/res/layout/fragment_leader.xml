@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/spinner_border"
+    tools:context="com.dt.anh.appdoi2h.view.LeaderFragment">
+    <TableRow
+        android:layout_width="250dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="40dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:text="Khóa:"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"
+            android:textColor="#283593"
+            android:layout_height="match_parent"/>
+
+        <Spinner
+            android:layout_weight="5"
+            android:layout_marginLeft="6dp"
+            android:layout_width="0dp"
+            android:id="@+id/sp_abc"
+            android:spinnerMode="dropdown"
+            android:background="@drawable/spinner_bg"
+            android:popupBackground="@color/InputBg"
+            android:minWidth="100dp"
+            style="?android:attr/textAppearanceMedium"
+            android:layout_height="match_parent"/>
+    </TableRow>
+
+    <ListView
+        android:id="@+id/lv_grade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:divider="#5A90A4AE"
+        android:dividerHeight="10dp">
+    </ListView>
+
+</LinearLayout>

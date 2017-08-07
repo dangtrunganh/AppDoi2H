@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:elevation="10dp"
+    android:layout_marginTop="4dp"
+    android:background="@drawable/home_pager_border_layout"
+    android:layout_height="200dp">
+    <TextView
+        android:id="@+id/text_view_reltv_featured_news"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tin nổi bật"
+        style="?android:attr/textAppearanceMedium"
+        android:textStyle="bold"
+        android:paddingLeft="6dp"
+        android:textColor="#304FFE"/>
+    <android.support.v4.view.ViewPager
+        android:layout_below="@id/text_view_reltv_featured_news"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:id="@+id/vpg_home_featured_news"/>
+</RelativeLayout>

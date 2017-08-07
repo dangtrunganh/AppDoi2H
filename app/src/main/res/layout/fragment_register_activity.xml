@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dt.anh.appdoi2h.RegisterActivityFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="ĐĂNG KÝ THAM GIA HOẠT ĐỘNG"
+        android:gravity="center"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+    <TableRow
+        android:layout_width="350dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_height="40dp">
+        <TextView
+            android:id="@+id/tv_time_week"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="#263238"
+            android:layout_weight="2"
+            android:text="TUẦN TỪ\n17/4/2017 - 23/4/2017"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:background="@drawable/selector_button"/>
+    </TableRow>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Hướng dẫn: Chọn 1 hoạt động bất kỳ để tham gia nhé."
+        android:textStyle="bold|italic"
+        android:gravity="center"
+        android:textSize="14dp"
+        android:textColor="#283593"/>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipeToRefresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ListView
+            android:id="@+id/lv_detail_member"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </ListView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+
+
+</LinearLayout>

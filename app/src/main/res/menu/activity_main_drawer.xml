@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:checkable="true"
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home_frg"
+        android:title="Trang chủ"/>
+
+    <item android:title="Thông tin">
+        <menu>
+            <group
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_gioi_thieu_chung"
+                    android:icon="@drawable/earth"
+                    android:title="Giới thiệu chung" />
+                <item
+                    android:id="@+id/nav_cac_doi_dt"
+                    android:icon="@drawable/account_circle"
+                    android:title="Các đời đội trưởng" />
+                <item
+                    android:id="@+id/nav_hd_thuong_ky"
+                    android:icon="@drawable/ic_menu_nav"
+                    android:title="Hoạt động thường kỳ" />
+                <item
+                    android:id="@+id/nav_chuong_trinh_lon"
+                    android:icon="@drawable/check_circle"
+                    android:title="Chương trình lớn" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Tiện ích">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_music"
+                    android:icon="@drawable/library_music"
+                    android:title="Nhạc tình nguyện" />
+                <item
+                    android:id="@+id/nav_zap"
+                    android:icon="@drawable/ic_run"
+                    android:title="Các bài zap chính" />
+                <item
+                    android:id="@+id/nav_register_activity"
+                    android:icon="@drawable/ic_register_activity"
+                    android:title="Đăng ký hoạt động"/>
+                <item
+                    android:id="@+id/nav_confession"
+                    android:icon="@drawable/ic_file_document_new"
+                    android:title="Hai Hòn Confession"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Communicate">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="Chia sẻ" />
+                <item
+                    android:id="@+id/nav_contact"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Liên hệ" />
+                <item
+                    android:id="@+id/nav_rate"
+                    android:icon="@drawable/ic_rate_star"
+                    android:title="Đánh giá" />
+                <item
+                    android:id="@+id/nav_about_hai_hon"
+                    android:icon="@drawable/ic_about_hai_hon"
+                    android:title="Về app “Hai Hòn”"/>
+                <item
+                    android:id="@+id/nav_version"
+                    android:icon="@drawable/information_outline"
+                    android:title="Phiên bản    1.0.1"
+                    android:enabled="false"/>
+                <item
+                    android:id="@+id/nav_log_out"
+                    android:icon="@drawable/ic_logout"
+                    android:title="Đăng xuất" />
+            </group>
+        </menu>
+    </item>
+</menu>

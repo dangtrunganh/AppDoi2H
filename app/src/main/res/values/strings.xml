@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Hai Hòn</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_log_out">Đăng xuất</string>
+    <string name="action_log_in">Đăng nhập</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="grade">
+        <item>K42</item>
+        <item>K43</item>
+        <item>K44</item>
+        <item>K45</item>
+        <item>K46</item>
+        <item>K47</item>
+        <item>K48</item>
+        <item>K49</item>
+        <item>K50</item>
+        <item>K51</item>
+        <item>K52</item>
+        <item>K53</item>
+        <item>K54</item>
+        <item>K55</item>
+        <item>K56</item>
+        <item>K57</item>
+    </string-array>
+
+
+    <string name="notice">Chú ý: Khi ấn tham gia thành công sẽ không thể HỦY.\n Nếu tình nguyện viên muốn thay đổi, hãy liên hệ với anh chị phụ trách hoạt động nhé!</string>
+    <string name="title_activity_welcome">Màn hình chính</string>
+    <string name="next">TIẾP</string>
+    <string name="skip">BỎ QUA</string>
+    <string name="start">ĐÃ HIỂU</string>
+
+    <string name="slide_1_title">Hello Food!</string>
+    <string name="slide_1_desc">Cách dễ nhất để đặt món ăn từ nhà hàng yêu thích của bạn!</string>
+
+    <string name="slide_2_title">Vé xem phim</string>
+    <string name="slide_2_desc">Đặt vé xem phim cho gia đình và bạn bè của bạn!</string>
+
+    <string name="slide_3_title">Đại hạ giá</string>
+    <string name="slide_3_desc">Giảm giá tốt nhất trên mỗi một dịch vụ chúng tôi cung cấp!</string>
+
+    <string name="slide_4_title">Du lịch thế giới</string>
+    <string name="slide_4_desc">Đặt vé của bất kỳ lộ trình và du lịch thế giới!</string>
+
+    <string name="play_again_desc">Để xem lại Slider lần nữa, tới Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Chạy lại</string>
+
+
+    <string name="ban_doi_ngoai">Ban đối ngoại</string>
+    <string name="ban_chuong_trinh">Ban chương trình</string>
+    <string name="ban_nhan_su">Ban nhân sự</string>
+    <string name="ban_chuyen_mon">Ban chuyên môn</string>
+
+
+    <string name="slide_doi">XIN CHÀO</string>
+
+    <string name="slide_ban_doi_ngoai_desc">Nơi tập hợp những con người năng động, ngoại giao cực đỉnh!</string>
+    <string name="slide_chuong_trinh_desc">Nơi tập hợp những nghệ sĩ tài ba, hát hay nhất!</string>
+    <string name="slide_ban_nhan_su_desc">Nơi tập hợp những con người hăng hái, có trách nhiệm cao!</string>
+    <string name="slide_ban_chuyen_mon_desc">Nơi tập hợp những con người giỏi chuyên môn, giỏi giao tiếp!</string>
+    <string name="intro_group">\tĐội sinh viên tình nguyện đồng hương Quảng Ninh, trực thuộc Hội sinh viên ĐH Kinh tế Quốc dân, là đơn vị tình nguyện đầu tiên của Hội Sinh Viên hoạt động theo mô hình đồng hương. Nơi đây tập hợp đông đảo nhất những sinh viên Quảng Ninh tại Hà Nội và những sinh viên tỉnh ngoài yêu mến mảnh đất và con người Quảng Ninh, muốn đem sức trẻ, lòng nhiệt tình đóng góp cho đất mỏ thân yêu.
+Đội được thành lập vào ngày 08/05/2002, tính đến nay Đội cũng đã trải qua hơn 13 năm- 13 năm xây dựng và phát triển, 13 năm đóng góp tuổi xuân, sức trẻ cho đât mỏ nói riêng và cả nước nói chung. 13 năm ấy có cả niềm vui, nụ cười, thành tựu và cũng có cả những giọt nước mắt, những giot mồ hôi, gian khổ và chông gai. Tất cả đã trở thành những bài học kinh nghiệm quý giá đối với mỗi thành viên 2 Hòn bây giờ và mãi mãi về sau.
+Mang trên vai hành trang là tuổi xuân và sức trẻ, các thành viên của Đội SVTN ĐH Quảng Ninh đã tham gia và hoàn thành tốt các nhiệm vụ, mục tiêu mà Đội đề ra. Trong đó có các hoạt động thường kì được tổ chức như: Hướng dẫn sinh viên khóa mới nhập trường; tổ chức chương trình chào đón thành viên khoá mới; tổ chức các hoạt động bình chọn Vịnh Hạ Long trở thành kì quan thiên nhiên thế giới; hoạt động thường kì dưới làng trẻ Hòa Bình-Thanh Xuân, Hà Nội và Viện dưỡng lão- Trung tâm chăm sóc Người cao tuổi Bách Niên Thiên Đức, Đông Ngạc, Từ Liêm, Hà Nội; tổ chức chương trình Hành trang sĩ tử về các trường THPT tại Quảng Ninh hỗ trợ các em học sinh lớp 12 trong công tác tuyển sinh Đại học- Cao đẳng; tổ chức chương trình Sưởi ấm vùng than về các xã nghèo tại Quảng Ninh; tham gia chiến dịch Tiếp sức mùa thi và chiến dịch Mùa hè thanh niên tình nguyện.
+</string>
+    <string name="contact_group">https://facebook.com/SVTNDHQN\ndhqn.neu@gmai.com</string>
+
+    <string name="title_activity_personal_infomation">PersonalInfomationActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_zap_youtube">ZapYoutubeActivity</string>
+    <string name="title_activity_main2">MainActivity2</string>
+</resources>

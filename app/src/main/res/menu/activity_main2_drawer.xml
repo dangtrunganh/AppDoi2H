@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Thông tin">
+        <menu>
+            <group
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_gioi_thieu_chung2"
+                    android:icon="@drawable/earth"
+                    android:title="Giới thiệu chung" />
+                <item
+                    android:id="@+id/nav_cac_doi_dt2"
+                    android:icon="@drawable/account_circle"
+                    android:title="Các đời đội trưởng" />
+                <item
+                    android:id="@+id/nav_hd_thuong_ky2"
+                    android:icon="@drawable/ic_menu_nav"
+                    android:title="Hoạt động thường kỳ" />
+                <item
+                    android:id="@+id/nav_chuong_trinh_lon2"
+                    android:icon="@drawable/check_circle"
+                    android:title="Chương trình lớn" />
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:title="Tiện ích">
+        <menu>
+        <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_music2"
+                android:icon="@drawable/library_music"
+                android:title="Nhạc tình nguyện"/>
+            <item
+                android:id="@+id/nav_register_activity2"
+                android:icon="@drawable/ic_register_activity"
+                android:title="Đăng ký hoạt động"/>
+        </group>
+        </menu>
+    </item>
+
+    <item android:title="Communicate">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/nav_share2"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="Chia sẻ" />
+                <item
+                    android:id="@+id/nav_contact2"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Liên hệ" />
+                <item
+                    android:id="@+id/nav_rate2"
+                    android:icon="@drawable/ic_rate_star"
+                    android:title="Đánh giá" />
+                <item
+                    android:id="@+id/nav_about_hai_hon2"
+                    android:icon="@drawable/ic_about_hai_hon"
+                    android:title="Về app “Hai Hòn”"/>
+                <item
+                    android:id="@+id/nav_version2"
+                    android:icon="@drawable/ic_info"
+                    android:title="Phiên bản    1.0.1"
+                    android:enabled="false"/>
+                <item
+                    android:id="@+id/nav_login_exit_2"
+                    android:icon="@drawable/ic_login_variant"
+                    android:title="Đăng nhập" />
+
+            </group>
+        </menu>
+    </item>
+
+</menu>

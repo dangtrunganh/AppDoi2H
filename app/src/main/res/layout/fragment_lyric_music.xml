@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:orientation="vertical"
+    tools:context="com.dt.anh.appdoi2h.LyricMusicFragment">
+    <TextView
+        android:id="@+id/textview_name_song"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên bài hát"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:textColor="#304FFE"
+        android:textSize="26sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/textview_artist_song"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Tác giả: Nguyễn Văn A"
+        android:gravity="center"
+        android:textColor="#000"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:layout_marginTop="25dp">
+        <TextView
+            android:id="@+id/textview_lyric_song"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lời bài hát"
+            android:textColor="#000"
+            android:textSize="18sp"/>
+    </ScrollView>
+
+</LinearLayout>
+

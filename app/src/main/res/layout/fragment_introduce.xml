@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dt.anh.appdoi2h.view.IntroduceFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/circleImageView"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/ic_img_doi" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="8dp"
+                android:textColor="#263238"
+                android:textSize="16sp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/contact_group"/>
+            <TextView
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:padding="5dp"
+                android:gravity="left"
+                android:text="@string/intro_group"
+                android:textSize="16dp"
+                android:textColor="#304FFE"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

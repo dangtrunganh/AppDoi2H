@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00bcd4</color>
+    <!--<color name="colorPrimaryDark">#37474F</color>-->
+    <color name="colorPrimaryDark">#0097a7</color>
+    <!--<color name="colorAccent">#0b18c1</color>-->
+    <color name="colorAccent">#FF4081</color>
+    <color name="gray">#BDBDBD</color>
+    <color name="InputBg">#BDBDBD</color>
+    
+    <color name="color_ripple">#7CB342</color>
+
+
+    <!-- Screens background color-->
+    <color name="bg_screen0">#f9f98d</color>
+    <color name="bg_screen1">#f64c73</color>
+    <color name="bg_screen2">#20d2bb</color>
+    <color name="bg_screen3">#3395ff</color>
+    <color name="bg_screen4">#c873f4</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen0">#f9f98d</color>
+    <color name="dot_dark_screen1">#d1395c</color>
+    <color name="dot_dark_screen2">#14a895</color>
+    <color name="dot_dark_screen3">#2278d4</color>
+    <color name="dot_dark_screen4">#a854d4</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen0">#f9f98d</color>
+    <color name="dot_light_screen1">#f98da5</color>
+    <color name="dot_light_screen2">#8cf9eb</color>
+    <color name="dot_light_screen3">#93c6fd</color>
+    <color name="dot_light_screen4">#e4b5fc</color>
+
+    <color name="no_color">#00FFFFFF</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen0</item>
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen0</item>
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="tab_click">#28000000</color>
+
+    <color name="viewBg">#f1f5f8</color>
+    <color name="album_title">#4c4c4c</color>
+
+    <color name="ab_home">#00bcd4</color>
+    <color name="ab_home_status_bar">#0097a7</color>
+
+    <color name="ab_confession">#ffff9800</color>
+    <color name="ab_confession_status_bar">#fff57c00</color>
+
+    <color name="ab_default">#ff00bcd4</color>
+    <color name="ab_default_status_bar">#ff0097a7</color>
+
+    <color name="ab_regular_activity">#ff8bc34a</color>
+    <color name="ab_regular_activity_status_bar">#ff689f38</color>
+
+    <color name="ab_lembrete">#ffcddc39</color>
+    <color name="ab_lembrete_status_bar">#ffafb42b</color>
+
+    <color name="ab_big_activity">#ff607d8b</color>
+    <color name="ab_big_activity_status_bar">#ff455a64</color>
+
+    <color name="ab_servico">#ff795548</color>
+    <color name="ab_servico_status_bar">#ff5d4037</color>
+
+    <color name="ab_zap_amin">#009688</color>
+    <color name="ab_zap_amin_status_bar">#047066</color>
+
+    <color name="ab_music">#3D5AFE</color>
+    <color name="ab_music_status_bar">#202b71</color>
+
+    <color name="ab_introduce">#03A9F4</color>
+    <color name="ab_introduce_status_bar">#0387c2</color>
+
+    <color name="ab_leader">#039BE5</color>
+    <color name="ab_leader_status_bar">#037cb7</color>
+
+    <color name="ab_register_activity">#8713d4</color>
+    <color name="ab_register_activity_status_bar">#610e99</color>
+
+    <color name="ab_contact">#E91E63</color>
+    <color name="ab_contact_status_bar">#b3174c</color>
+
+    <color name="ab_share">#ff795548</color>
+    <color name="ab_share_status_bar">#ff5d4037</color>
+
+
+    <color name="ab_color_song_info">#303F9F</color>
+</resources>
